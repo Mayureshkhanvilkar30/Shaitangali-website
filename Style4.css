@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg\ img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
+
+  .sidebar img{
+    width: 100%;
+  }
+  .sidebar {
+    height: 100vh; /* Full height */
+    width: 200px; /* Sidebar width */
+  background: rgba(24, 1, 1, 0.367); /* semi-transparent background */
+  backdrop-filter: blur(5px);          /* actual blur */
+  -webkit-backdrop-filter: blur(10px);  /* for Safari */
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(22, 1, 1);
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    font-style: italic;
+    font-size: large;
+    text-decoration: none;
+  }
+
+  .sidebar a:hover {
+    background-color: #575757; /* Hover effect */
+  }
+  .content {
+    margin-left: 35%;
+    margin-top: 20%;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Baguet Script;
+    font-style: italic;
+    color: black;
+    
+  }
+
+  .gpname{
+    margin-left: 47.9%;
+    margin-top: -3.5%;
+    font-size: xx-large;
+    font-family: Baguet Script;
+    font-style: italic;
+    color: black;
+    
+  }
+
+  .tc{
+    margin-left: 45%;
+    margin-top: 15%;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Baguet Script;
+    font-style: italic;
+    color: black;
+    
+  }
+
+  .p{
+    margin-left: 15%;
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+  }
